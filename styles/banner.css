@@ -1,0 +1,96 @@
+.banner {
+  background: #ecfdf5;
+  margin-top: 2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  border-radius: 0.75em;
+  padding: 1em 2.25em 1em 2.25em;
+}
+
+.banner:hover {
+  cursor: pointer;
+}
+
+.banner h4 {
+  display: flex;
+  align-items: center;
+}
+
+.banner > h4 > span {
+  margin-right: 0.5em;
+  display: flex;
+  font-size: 1.25em;
+}
+
+.banner > h4 > .chevron {
+  margin-left: auto;
+}
+
+.banner p {
+  padding: 1em 1.5em 0 1.5em;
+  line-height: 1.25;
+}
+
+.banner.success {
+  background: #ecfdf5;
+}
+
+.banner.success > h4 > span {
+  color: #34d399;
+}
+
+.banner.banner.success > h4 {
+  color: #065f46;
+}
+
+.banner.banner.success > p {
+  color: #047857;
+}
+
+.banner.warning {
+  background: #fffbeb;
+}
+
+.banner.warning > h4 > span {
+  color: #fbbf24;
+}
+
+.banner.banner.warning > h4 {
+  color: #92400e;
+}
+
+.banner.banner.warning > p {
+  color: #b45309;
+}
+
+.banner.error {
+  background: #fef2f2;
+}
+
+.banner.error > h4 > span {
+  color: #f87171;
+}
+
+.banner.banner.error > h4 {
+  color: #92400e;
+}
+
+.banner.banner.error > p {
+  color: #b45309;
+}
+
+.banner.neutral {
+  background: #eff6ff;
+}
+
+.banner.neutral > h4 > span {
+  color: #60a5fa;
+}
+
+.banner.banner.neutral > h4 {
+  color: #1e40af;
+}
+
+.banner.banner.neutral > p {
+  color: #1c51b9;
+}
